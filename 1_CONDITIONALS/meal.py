@@ -24,11 +24,10 @@ def main():
         print("lunch time")
     elif c_time >= 18 and c_time <= 19:
         print("dinner time")
+    else: pass # do nothing
 
 def convert(time):
     hours, minutes = time.split(":")
     hours = float(hours) + (float(minutes) / 60)
+    #print("hours", hours) debugger
     return hours
-
-if __name__ == "__main__":
-    main()
