@@ -13,3 +13,13 @@ For instance, if the user inputs 1 + 1, your program should output 2.0.
 Assume that, if y is /, then z will not be 0.
 '''
 
+expression = input("Expression: ")
+x, y, z = expression.split(" ")
+#print(x, y, z) #debugger
+x = float(x)
+z = float(z)
+if y == '+' : print(x + z)
+elif y == '-' : print(x - z)
+elif y == '*' : print(x * z)
+elif y == '/' : print(x / z)
+else : print("error")
