@@ -13,3 +13,22 @@ to the corresponding number of hours as a float. For instance,
 given a time like "7:30" (i.e., 7 hours and 30 minutes), 
 convert should return 7.5 (i.e., 7.5 hours).
 '''
+
+def main():
+    time = input("What time is it? ")
+    c_time = convert(time)
+
+    if c_time >= 7 and c_time <= 8:
+        print("breakfast time")
+    elif c_time >= 12 and c_time <= 13:
+        print("lunch time")
+    elif c_time >= 18 and c_time <= 19:
+        print("dinner time")
+
+def convert(time):
+    hours, minutes = time.split(":")
+    hours = float(hours) + (float(minutes) / 60)
+    return hours
+
+if __name__ == "__main__":
+    main()
