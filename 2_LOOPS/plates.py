@@ -9,6 +9,8 @@ def main():
 # All vanity plates must start with at least two letters.”
 # vanity plates may contain a max of 6 chars (letters or numbers) and a min of 2 chars
 # No periods, spaces, or punctuation marks are allowed.
+
+
 def is_valid(s):
     if s[0:2].isalpha() and (len(s) >= 2 and len(s) < 7) and s.isalnum():
         #print(s.isalpha())
