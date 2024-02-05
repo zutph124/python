@@ -18,3 +18,7 @@ if key in d:
 wherein d is a dict and key is a str.
 
 Be sure to avoid or catch any KeyError.
+Recall that a list comes with quite a few methods, per docs.python.org/3/tutorial/datastructures.html#more-on-lists, among which is index.
+Note that you can format an int with leading zeroes with code like
+print(f"{n:02}")
+wherein, if n is a single digit, it will be prefixed with one 0, per docs.python.org/3/library/string.html#format-string-syntax.
