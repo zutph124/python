@@ -16,3 +16,6 @@ You can set the font with code like this, wherein f is the font’s name as a st
 And you can output text in that font with code like this, wherein s is that text as a str:
   print(figlet.renderText(s))
 Note that the random module comes with quite a few functions, per docs.python.org/3/library/random.html.
+
+Note that the inflect module comes with quite a few methods, per pypi.org/project/inflect. You can install it with:
+pip install inflect
