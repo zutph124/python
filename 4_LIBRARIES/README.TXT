@@ -19,3 +19,5 @@ Note that the random module comes with quite a few functions, per docs.python.or
 
 Note that the inflect module comes with quite a few methods, per pypi.org/project/inflect. You can install it with:
 pip install inflect
+
+Note that the random module comes with quite a few functions, per docs.python.org/3/library/random.html.
