@@ -24,3 +24,10 @@ Note that the random module comes with quite a few functions, per docs.python.or
 
 Note that you can raise an exception like ValueError with code like:
 raise ValueError
+
+Recall that the sys module comes with argv, per docs.python.org/3/library/sys.html#sys.argv.
+
+Note that the requests module comes with quite a few methods, per requests.readthedocs.io/en/latest, among which are get, per requests.readthedocs.io/en/latest/user/quickstart.html#make-a-request, and json, 
+per requests.readthedocs.io/en/latest/user/quickstart.html#json-response-content. 
+You can install it with:
+    pip install requests
