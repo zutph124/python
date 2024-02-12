@@ -21,3 +21,6 @@ Note that the inflect module comes with quite a few methods, per pypi.org/projec
 pip install inflect
 
 Note that the random module comes with quite a few functions, per docs.python.org/3/library/random.html.
+
+Note that you can raise an exception like ValueError with code like:
+raise ValueError
